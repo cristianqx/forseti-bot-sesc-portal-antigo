@@ -1,0 +1,20 @@
+{
+    "name": "forseti/bot-sesc",
+    "description": "Bot de captura portal Sesc",
+    "authors": [
+        {
+            "name": "Cristian Baptistela",
+            "email": "cristian.baptistella@outlook.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "symfony/dom-crawler": "^3.4",
+        "forseti/logger": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Forseti\\Bot\\Sesc\\": "src/"
+        }
+    }
+}

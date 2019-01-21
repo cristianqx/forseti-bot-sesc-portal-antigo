@@ -1,0 +1,29 @@
+{
+    "name": "forseti/logger",
+    "description": "Forseti Logger facilita a utilizaçao de log na forseti",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "forseti",
+        "logger"
+    ],
+    "require": {
+        "monolog/monolog": "^1.22"
+    },
+
+    "suggest": {
+        "sentry/sentry": "Enviar erros para o sentry"
+    },
+
+    "authors": [
+        {
+            "name": "Diego Saouda",
+            "email": "diego.saouda@forseit.com.br"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Forseti\\Logger\\": "src"
+        }
+    }
+}
