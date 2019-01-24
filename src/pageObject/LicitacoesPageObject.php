@@ -23,13 +23,15 @@ class LicitacoesPageObject extends AbstractPageObject
 
     public function postPage()
     {
-        $parser = $this->getPage();
+        $vs = $this->getPage()->getViewState();
+        $vsg = $this->getPage()->getViewStateGenerator();
+        $ev = $this->getPage()->getEventValidation();
 
         $response = $this->client->request('POST', 'https://pregao.sescsp.org.br/WBCPublic/Publico//Mural/MuralPesquisa.aspx', [
             'form_params' => [
-                '__VIEWSTATE' => $parser->viewState(),
-                '__VIEWSTATEGENERATOR' => $parser->viewStateGenerator(),
-                '__EVENTVALIDATION' => $parser->eventValidation(),
+                '__VIEWSTATE' => $vs,
+                '__VIEWSTATEGENERATOR' => $vsg,
+                '__EVENTVALIDATION' => $ev,
                 'ctl00$ddlVisoes' => 18042,
                 'ctl00$ddlTipo' => 18020,
 

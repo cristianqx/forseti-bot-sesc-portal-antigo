@@ -9,33 +9,33 @@
 namespace Forseti\Bot\Sesc\parser;
 
 
+
+use Forseti\Bot\Sesc\iterator\Iterator;
+
 class LicitacoesParser extends AbstractParser
 {
-    public function getHtmlTable()
-    {
-        return $this->crawler->filterXPath("//table[@id='tbMural']/tbody/tr[position()>1]");
-    }
-
     public function getHtml()
     {
-        return $this->crawler->html();
+        $this->crawler->html();
     }
 
-    public function viewState()
+    public function getHtmlTable()
+    {
+//        return new Iterator($this->getHtml(),'//div[@id="ctl00_pesquisaDataGrid_dtgPesquisa_divScroll"]/table/tr');
+          return $this->crawler->filterXPath('//div[@id="ctl00_pesquisaDataGrid_dtgPesquisa_divScroll"]/table/tr[position()>1]');
+    }
+
+    public function getViewState()
     {
         return $this->crawler->filterXPath('//input[@id="__VIEWSTATE"]')->attr('value');
     }
 
-
-    public function viewStateGenerator()
+    public function getViewStateGenerator()
     {
         return $this->crawler->filterXPath('//input[@id="__VIEWSTATEGENERATOR"]')->attr('value');
     }
-
-    public function eventValidation()
+    public function getEventValidation()
     {
         return $this->crawler->filterXPath('//input[@id="__EVENTVALIDATION"]')->attr('value');
     }
-
-
 }

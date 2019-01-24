@@ -9,8 +9,10 @@ $po = new LicitacoesPageObject(new Client([
 ]));
 
 
-$parser = $po->postPage();
+$parser = $po->postPage()->getHtmlTable();
 
-var_dump(iconv("UTF-8","ISO-8859-1//TRANSLIT",$parser->getHtml()));
+
+print_r($parser);
+
 
 
