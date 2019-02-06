@@ -2,13 +2,14 @@
 /**
  * Created by PhpStorm.
  * User: cristian.coelho
- * Date: 01/02/19
- * Time: 10:05
+ * Date: 04/02/19
+ * Time: 11:37
  */
 
 namespace Forseti\Bot\Sesc\iterator;
 
-class DetalhesLicitacaoIterator extends \ArrayIterator
+
+class DetalhesItensLicitacaoIterator extends \ArrayIterator
 {
     public function current()
     {
@@ -18,7 +19,6 @@ class DetalhesLicitacaoIterator extends \ArrayIterator
             'codigo' => $current['nCdProcesso'],
             'modalidade' => $current['sNmModalidade'],
             'situacao' => $current['sDsSituacao'],
-
         ];
     }
 }

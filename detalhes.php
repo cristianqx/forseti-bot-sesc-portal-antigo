@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: cristian.coelho
- * Date: 01/02/19
- * Time: 11:39
- */
 
 require_once 'vendor/autoload.php';
 
@@ -17,6 +11,6 @@ $guz = new Client(['cookies' => true, 'verify' => false]);
 // $po = new SescLicitacaoPageObject($guz);
 $po = new DetalhesLicitacaoPageObject($guz);
 
-$parser = $po->getDetails(2444)->getIterator();
+$parser = $po->getDetails(2442)->getIterator();
 
 print_r($parser);
