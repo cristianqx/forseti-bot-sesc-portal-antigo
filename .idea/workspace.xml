@@ -1,54 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fb26c27-528c-4294-a2ed-cc5532d8b1bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/detalhes_processos.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/detalhes_resumo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iterator/DetalhesProcessoIterator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pageObject/DetalhesProcessosPageObject.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parser/DetalhesProcessoParser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detalhes.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pesquisa.php" beforeDir="false" afterPath="$PROJECT_DIR$/pesquisa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iterator/DetalhesLicitacaoIterator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/iterator/DetalhesResumoIterator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iterator/SescLicitacaoIterator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/iterator/PesquisaLicitacaoIterator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pageObject/DetalhesLicitacaoPageObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageObject/DetalhesResumoPageObject.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pageObject/SescLicitacaoPageObject.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parser/DetalhesLicitacaoParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/DetalhesResumoParser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parser/SescLicitacaoParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/PesquisaLicitacaoParser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teste.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testedetalhes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/forseti/logger/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/forseti/logger/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/forseti/logger/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/forseti/logger/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/forseti/logger/src/Env.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/forseti/logger/src/Env.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/forseti/logger/src/ErrorHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/forseti/logger/src/ErrorHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/forseti/logger/src/LineFormatterFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/forseti/logger/src/LineFormatterFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/forseti/logger/src/Logger.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/forseti/logger/src/Logger.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/forseti/logger/src/LogglyHandlerFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/forseti/logger/src/LogglyHandlerFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/forseti/logger/src/SentryHandlerFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/forseti/logger/src/SentryHandlerFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/forseti/logger/src/StreamHandlerFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/forseti/logger/src/StreamHandlerFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/forseti/logger/test/log.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/forseti/logger/test/log.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/forseti/logger/test/loggly.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/forseti/logger/test/loggly.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/forseti/logger/test/sentry.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/forseti/logger/test/sentry.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/Slack/SlackRecord.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/Slack/SlackRecord.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/AbstractUriElement.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/AbstractUriElement.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Crawler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Crawler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Field/ChoiceFormField.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Field/ChoiceFormField.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Field/FileFormField.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Field/FileFormField.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Form.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/FormFieldRegistry.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/FormFieldRegistry.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/CrawlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/CrawlerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/Field/ChoiceFormFieldTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/Field/ChoiceFormFieldTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/Field/FileFormFieldTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/Field/FileFormFieldTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/Field/FormFieldTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/Field/FormFieldTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/Field/FormFieldTestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/Field/FormFieldTestCase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/Field/InputFormFieldTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/Field/InputFormFieldTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/FormTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/FormTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/ImageTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/ImageTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/LinkTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/LinkTest.php" afterDir="false" />
-    </list>
+    <list default="true" id="8fb26c27-528c-4294-a2ed-cc5532d8b1bb" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/detalhes_item.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+              <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
               <folding>
                 <element signature="e#44#66#0#PHP" expanded="true" />
               </folding>
@@ -76,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/detalhes_resumo.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+              <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -258,12 +211,12 @@
       <workItem from="1549372590670" duration="7328000" />
       <workItem from="1549537977532" duration="552000" />
       <workItem from="1549540003176" duration="10076000" />
-      <workItem from="1549631356560" duration="5006000" />
+      <workItem from="1549631356560" duration="5365000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134571000" />
+    <option name="totallyTimeSpent" value="134930000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="25" width="1311" height="743" extended-state="6" />
@@ -508,7 +461,7 @@
     <entry file="file://$PROJECT_DIR$/detalhes_item.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
           <folding>
             <element signature="e#44#66#0#PHP" expanded="true" />
           </folding>
@@ -518,7 +471,7 @@
     <entry file="file://$PROJECT_DIR$/detalhes_resumo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
         </state>
       </provider>
     </entry>
