@@ -9,15 +9,19 @@
 namespace Forseti\Bot\Sesc\pageObject;
 
 
-use Forseti\Bot\Sesc\parser\DetalhesLicitacaoParser;
+use Forseti\Bot\Sesc\parser\DetalhesResumoParser;
 
-class DetalhesLicitacaoPageObject extends AbstractPageObject
+
+class DetalhesResumoPageObject extends AbstractPageObject
 {
+    // Pega resumo da pagina de detalhes do Portal //
+
     public function getDetails($idPortal)
     {
         $response = $this->client->request('POST','https://pregao.sescsp.org.br/portal/WebService/Servicos.asmx/PesquisarProcessoDetalhes',[
-            'json' => [
-                    "dtoProcesso" => [
+            'json' =>
+                [
+                "dtoProcesso" => [
                     "nCdProcesso" => $idPortal,
                     "nCdModulo" => 18,
                     "nCdSituacao" => 2,
@@ -25,12 +29,8 @@ class DetalhesLicitacaoPageObject extends AbstractPageObject
                     "dtoIdioma" => ["nCdIdioma" => 1]
                     ]
                 ]
-
-
         ]);
 
-
-
-        return new DetalhesLicitacaoParser($response->getBody()->getContents());
+        return new DetalhesResumoParser($response->getBody()->getContents());
     }
 }

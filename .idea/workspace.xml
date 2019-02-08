@@ -2,20 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fb26c27-528c-4294-a2ed-cc5532d8b1bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pageObject/SescLicitacaoPageObject.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detalhes_processos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detalhes_resumo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/iterator/DetalhesProcessoIterator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pageObject/DetalhesProcessosPageObject.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parser/DetalhesProcessoParser.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hahahah" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iterator/AbstractIterator.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iterator/ForsetiIterator.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iterator/Iterator.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pageObject/AvancarPaginaPageObject.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pageObject/DetalhesPageObject.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pageObject/LicitacoesPageObject.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parser/AbstractParser.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parser/LicitacoesParser.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teste.html" beforeDir="false" afterPath="$PROJECT_DIR$/teste.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detalhes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pesquisa.php" beforeDir="false" afterPath="$PROJECT_DIR$/pesquisa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iterator/DetalhesLicitacaoIterator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/iterator/DetalhesResumoIterator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iterator/SescLicitacaoIterator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/iterator/PesquisaLicitacaoIterator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageObject/DetalhesLicitacaoPageObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageObject/DetalhesResumoPageObject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageObject/SescLicitacaoPageObject.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/DetalhesLicitacaoParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/DetalhesResumoParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/SescLicitacaoParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/PesquisaLicitacaoParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teste.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testedetalhes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/forseti/logger/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/forseti/logger/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/forseti/logger/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/forseti/logger/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/forseti/logger/src/Env.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/forseti/logger/src/Env.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/forseti/logger/src/ErrorHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/forseti/logger/src/ErrorHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/forseti/logger/src/LineFormatterFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/forseti/logger/src/LineFormatterFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/forseti/logger/src/Logger.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/forseti/logger/src/Logger.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/forseti/logger/src/LogglyHandlerFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/forseti/logger/src/LogglyHandlerFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/forseti/logger/src/SentryHandlerFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/forseti/logger/src/SentryHandlerFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/forseti/logger/src/StreamHandlerFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/forseti/logger/src/StreamHandlerFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/forseti/logger/test/log.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/forseti/logger/test/log.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/forseti/logger/test/loggly.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/forseti/logger/test/loggly.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/forseti/logger/test/sentry.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/forseti/logger/test/sentry.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/Slack/SlackRecord.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Handler/Slack/SlackRecord.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/AbstractUriElement.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/AbstractUriElement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Crawler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Crawler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Field/ChoiceFormField.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Field/ChoiceFormField.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Field/FileFormField.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Field/FileFormField.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Form.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/FormFieldRegistry.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/FormFieldRegistry.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/CrawlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/CrawlerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/Field/ChoiceFormFieldTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/Field/ChoiceFormFieldTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/Field/FileFormFieldTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/Field/FileFormFieldTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/Field/FormFieldTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/Field/FormFieldTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/Field/FormFieldTestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/Field/FormFieldTestCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/Field/InputFormFieldTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/Field/InputFormFieldTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/FormTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/FormTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/ImageTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/ImageTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/LinkTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/LinkTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,114 +58,25 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1039370884">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.22" value="1" />
-          <entry key="project.open.time.35" value="1" />
-          <entry key="project.open.time.37" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.41" value="1" />
-          <entry key="project.open.time.44" value="1" />
-          <entry key="project.open.time.47" value="1" />
-          <entry key="project.open.time.5" value="3" />
-          <entry key="project.open.time.52" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.81" value="1" />
-          <entry key="project.opened" value="16" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="hahahah" value="1" />
-          <entry key="html" value="1" />
-          <entry key="json" value="4" />
-          <entry key="php" value="113" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="HTML" value="1" />
-          <entry key="JSON" value="4" />
-          <entry key="PHP" value="113" />
-          <entry key="PLAIN_TEXT" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="81" />
-          <entry key="json" value="70" />
-          <entry key="php" value="7228" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JSON" value="70" />
-          <entry key="PHP" value="7228" />
-          <entry key="PLAIN_TEXT" value="81" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.php.new.class">
-        <counts>
-          <entry key="PHP Class.type" value="19" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pesquisa.php">
+        <entry file="file://$PROJECT_DIR$/detalhes_item.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="120">
+              <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
               <folding>
-                <element signature="e#82#104#0#PHP" expanded="true" />
+                <element signature="e#44#66#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pageObject/DetalhesLicitacaoPageObject.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/detalhes.php">
+        <entry file="file://$PROJECT_DIR$/detalhes_resumo.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-              <folding>
-                <element signature="e#134#156#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/parser/DetalhesLicitacaoParser.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="16" column="64" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/iterator/DetalhesLicitacaoIterator.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -164,21 +107,34 @@
         <option value="$PROJECT_DIR$/src/pageObject/SescLicitacaoPageObject.php" />
         <option value="$PROJECT_DIR$/src/parser/AbstractJsonParser.php" />
         <option value="$PROJECT_DIR$/pesquisa_licitacao.php" />
-        <option value="$PROJECT_DIR$/src/pageObject/DetalhesLicitacaoPageObject.php" />
-        <option value="$PROJECT_DIR$/src/parser/DetalhesLicitacaoParser.php" />
-        <option value="$PROJECT_DIR$/detalhes.php" />
         <option value="$PROJECT_DIR$/src/iterator/SescLicitacaoIterator.php" />
-        <option value="$PROJECT_DIR$/src/iterator/DetalhesLicitacaoIterator.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/src/parser/DetalhesItensLicitacaoParser.php" />
+        <option value="$PROJECT_DIR$/src/pageObject/DetalhesLicitacaoPageObject.php" />
+        <option value="$PROJECT_DIR$/detalhesitem.php" />
+        <option value="$PROJECT_DIR$/src/parser/ResumoEditalParser.php" />
+        <option value="$PROJECT_DIR$/src/iterator/ResumoEditalIterator.php" />
+        <option value="$PROJECT_DIR$/src/pageObject/ResumoEditalPageObject.php" />
+        <option value="$PROJECT_DIR$/resumo_edital.php" />
+        <option value="$PROJECT_DIR$/detalhes.php" />
+        <option value="$PROJECT_DIR$/src/pageObject/DetalhesItensLicitacaoPageObject.php" />
         <option value="$PROJECT_DIR$/pesquisa.php" />
+        <option value="$PROJECT_DIR$/src/parser/DetalhesLicitacaoParser.php" />
+        <option value="$PROJECT_DIR$/src/parser/DetalhesResumoParser.php" />
+        <option value="$PROJECT_DIR$/src/iterator/DetalhesLicitacaoIterator.php" />
+        <option value="$PROJECT_DIR$/src/iterator/DetalhesResumoIterator.php" />
+        <option value="$PROJECT_DIR$/src/iterator/DetalhesItensLicitacaoIterator.php" />
+        <option value="$PROJECT_DIR$/src/parser/DetalhesProcessoParser.php" />
+        <option value="$PROJECT_DIR$/src/iterator/DetalhesItemIterator.php" />
+        <option value="$PROJECT_DIR$/src/parser/DetalhesItemParser.php" />
+        <option value="$PROJECT_DIR$/src/pageObject/DetalhesResumoPageObject.php" />
+        <option value="$PROJECT_DIR$/src/pageObject/DetalhesProcessosPageObject.php" />
+        <option value="$PROJECT_DIR$/src/pageObject/DetalhesItemPageObject.php" />
+        <option value="$PROJECT_DIR$/detalhes_item.php" />
+        <option value="$PROJECT_DIR$/detalhes_processos.php" />
+        <option value="$PROJECT_DIR$/detalhes_resumo.php" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -196,11 +152,11 @@
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="55" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="51" />
     <option name="y" value="27" />
-    <option name="width" value="1311" />
-    <option name="height" value="741" />
+    <option name="width" value="1389" />
+    <option name="height" value="783" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -208,7 +164,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,6 +198,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,6 +206,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -294,17 +251,45 @@
       <workItem from="1548932497887" duration="7055000" />
       <workItem from="1549015590421" duration="9130000" />
       <workItem from="1549027035405" duration="7437000" />
+      <workItem from="1549279025731" duration="757000" />
+      <workItem from="1549283750764" duration="9316000" />
+      <workItem from="1549363999813" duration="2406000" />
+      <workItem from="1549366520495" duration="4792000" />
+      <workItem from="1549372590670" duration="7328000" />
+      <workItem from="1549537977532" duration="552000" />
+      <workItem from="1549540003176" duration="10076000" />
+      <workItem from="1549631356560" duration="5006000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94338000" />
+    <option name="totallyTimeSpent" value="134571000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1360" height="742" extended-state="7" />
-    <editor active="true" />
+    <frame x="55" y="25" width="1311" height="743" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2283105" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.258498" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32736155" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.26384366" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17272727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -317,51 +302,25 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.06320908" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.066450566" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/teste.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/teste.html" />
     <entry file="file://$PROJECT_DIR$/hahahah" />
     <entry file="file://$PROJECT_DIR$/src/iterator/Iterator.php" />
-    <entry file="file://$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pageObject/PesquisarSituacoesPageObject.php" />
     <entry file="file://$PROJECT_DIR$/src/pageObject/PesquisarProcessosPageObject.php" />
-    <entry file="file://$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Client.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="127" column="20" selection-start-line="127" selection-start-column="20" selection-end-line="127" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/parser/LicitacoesParser.php" />
     <entry file="file://$PROJECT_DIR$/src/iterator/LicitacoesIterator.php" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/SPL/SPL.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="649" column="10" selection-start-line="649" selection-start-column="10" selection-end-line="649" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core_c.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
@@ -378,10 +337,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/parser/PesquisaLicitacaoParser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iterator/PesquisaLicitacaoIterator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detalhes.html" />
     <entry file="file://$PROJECT_DIR$/src/parser/AbstractJsonParser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        <state relative-caret-position="135">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/SPL/SPL.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="1830" column="37" selection-start-line="1830" selection-start-column="37" selection-end-line="1830" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parser/ResumoEditalParser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="127" column="20" selection-start-line="127" selection-start-column="20" selection-end-line="127" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -392,65 +387,138 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/parser/SescLicitacaoParser.php">
+    <entry file="file://$PROJECT_DIR$/resumo_edital.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#43#65#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iterator/ResumoEditalIterator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pageObject/PesquisaLicitacaoPageObject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="79" column="53" lean-forward="true" selection-start-line="79" selection-start-column="53" selection-end-line="79" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pageObject/ResumoEditalPageObject.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObject/SescLicitacaoPageObject.php">
+    <entry file="file://$PROJECT_DIR$/src/parser/DetalhesItemParser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="95" column="29" lean-forward="true" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
+        <state relative-caret-position="150">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iterator/SescLicitacaoIterator.php">
+    <entry file="file://$PROJECT_DIR$/src/iterator/DetalhesProcessoIterator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        <state relative-caret-position="150">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iterator/DetalhesItemIterator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pesquisa.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="e#82#104#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/parser/DetalhesLicitacaoParser.php">
+    <entry file="file://$PROJECT_DIR$/src/parser/DetalhesResumoParser.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="16" column="64" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="64" />
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iterator/DetalhesLicitacaoIterator.php">
+    <entry file="file://$PROJECT_DIR$/src/iterator/DetalhesResumoIterator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="68">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObject/DetalhesLicitacaoPageObject.php">
+    <entry file="file://$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        <state relative-caret-position="326">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/detalhes.php">
+    <entry file="file://$PROJECT_DIR$/src/pageObject/DetalhesResumoPageObject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detalhes_processos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+          <folding>
+            <element signature="e#43#65#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parser/DetalhesProcessoParser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pageObject/DetalhesProcessosPageObject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pageObject/DetalhesItemPageObject.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detalhes_item.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
           <folding>
-            <element signature="e#134#156#0#PHP" expanded="true" />
+            <element signature="e#44#66#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detalhes_resumo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
         </state>
       </provider>
     </entry>

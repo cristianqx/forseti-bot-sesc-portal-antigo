@@ -9,7 +9,7 @@
 namespace Forseti\Bot\Sesc\iterator {
 
 
-    class SescLicitacaoIterator extends \ArrayIterator
+    class PesquisaLicitacaoIterator extends \ArrayIterator
     {
         public function current()
         {

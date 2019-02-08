@@ -8,20 +8,20 @@
 
 require_once 'vendor/autoload.php';
 use GuzzleHttp\Client;
-use Forseti\Bot\Sesc\pageObject\SescLicitacaoPageObject;
-use Forseti\Bot\Sesc\pageObject\DetalhesLicitacaoPageObject;
+use Forseti\Bot\Sesc\pageObject\PesquisaLicitacaoPageObject;
+use Forseti\Bot\Sesc\pageObject\DetalhesResumoPageObject;
 
 $guz = new Client(['cookies' => true, 'verify' => false]);
 
- $po = new SescLicitacaoPageObject($guz);
+ $po = new PesquisaLicitacaoPageObject($guz);
 
 
- $parser = $po->byModalidade(SescLicitacaoPageObject::MODALIDADE_PREGAO_ELETRONICO)->bySituacao(SescLicitacaoPageObject::PREGAO_ELETRONICO_EM_PROPOSTA);
+ $parser = $po->byModalidade(PesquisaLicitacaoPageObject::MODALIDADE_PREGAO_ELETRONICO)->bySituacao(PesquisaLicitacaoPageObject::PREGAO_ELETRONICO_EM_PROPOSTA);
 
 
 $licitacoes = $po->post()->getIterator();
 
-$poDetalhes = new DetalhesLicitacaoPageObject($guz);
+$poDetalhes = new DetalhesResumoPageObject($guz);
 
 
 foreach ($licitacoes as $licitacao) {
@@ -30,15 +30,3 @@ foreach ($licitacoes as $licitacao) {
     var_dump($parserDetalhes->getIterator());
 
 }
-
-/*foreach ($parser->getIterator() as $item)
-{
-    var_dump('<br/>');
-    var_dump($item);
-}
-
-?><
-
-</pre>
-</html>
--->

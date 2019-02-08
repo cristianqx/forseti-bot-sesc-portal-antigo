@@ -7,9 +7,9 @@
  */
 
 namespace Forseti\Bot\Sesc\pageObject;
-use Forseti\Bot\Sesc\parser\SescLicitacaoParser;
+use Forseti\Bot\Sesc\parser\PesquisaLicitacaoParser;
 
-class SescLicitacaoPageObject extends AbstractPageObject
+class PesquisaLicitacaoPageObject extends AbstractPageObject
 {
 
     const MODALIDADE_TODAS = 0;
@@ -93,7 +93,7 @@ class SescLicitacaoPageObject extends AbstractPageObject
     ]
 ]
             ]);
-         return new SescLicitacaoParser($response->getBody()->getContents());
+         return new PesquisaLicitacaoParser($response->getBody()->getContents());
     }
 
 }
