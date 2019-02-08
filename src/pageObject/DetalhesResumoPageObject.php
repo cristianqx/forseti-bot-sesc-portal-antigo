@@ -31,6 +31,10 @@ class DetalhesResumoPageObject extends AbstractPageObject
                 ]
         ]);
 
+<<<<<<< HEAD:src/pageObject/DetalhesResumoPageObject.php
         return new DetalhesResumoParser($response->getBody()->getContents());
+=======
+        return new DetalhesLicitacaoParser($response->getBody()->getContents());
+>>>>>>> 8097debf25f4eff1c8a5709852c368eeae17ce32:src/pageObject/DetalhesLicitacaoPageObject.php
     }
 }
